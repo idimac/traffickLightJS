@@ -1,0 +1,70 @@
+    
+.dragZone {
+    position: relative;
+    z-index: 1000;
+}
+.controller {
+    position: absolute;
+    width: 150px;
+    height: 160px;
+    background-color: greenyellow;
+    border-radius: 30px;
+    text-align: center;
+    border: 2px solid black;
+    transition: 2s;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-color: darkcyan;
+}
+.trafficLight {
+    height: 300px;
+    width: 100px;
+    background-color: rgb(70, 68, 68);
+    border-radius: 40px;
+    position: relative;
+    float: left;
+    top: 10px;
+    left: 10px;
+    margin: 10px;
+}
+.red {
+    text-align: center;
+    font: 42px Verdana;
+    height: 90px;
+    width: 90px;
+    border-radius: 40px;
+    position: absolute;
+    background-color: rgb(112, 10, 10);
+    top: 10px;
+    left: 5px;
+}
+.yellow {
+    height: 90px;
+    width: 90px;
+    border-radius: 40px;
+    position: absolute;
+    background-color: rgb(145, 145, 7);
+    top: 105px;
+    left: 5px;
+}
+.green {
+    height: 90px;
+    width: 90px;
+    border-radius: 40px;
+    position: absolute;
+    background-color: rgb(7, 63, 32);
+    top: 200px;
+    left: 5px;
+}
+.redOn {
+    background-color: red;
+}
+.yellowOn {
+    background-color: yellow;
+}
+.greenOn {
+    background-color: green;
+}
